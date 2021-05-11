@@ -1,0 +1,189 @@
+html,
+body {
+    direction: rtl;
+}
+/* -----------------------
+    03. Header Section CSS
+--------------------------*/
+.full-width-header .rs-header .topbar-area .topbar-contact li {
+    margin-right: 0;
+    margin-left: 14px;
+    padding-right: 0;
+    padding-left: 14px;
+    border-right: 0;
+    border-left: 1px solid #333;
+}
+.full-width-header .rs-header .topbar-area .topbar-contact li i {
+    margin-right: 0;
+    margin-left: 5px;
+    transform: scale(-1, 1);
+}
+.full-width-header .rs-header .topbar-area .topbar-contact  .phone {
+    margin-right:8px;
+}
+.full-width-header .rs-header .topbar-area .topbar-right li {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.full-width-header .rs-header .topbar-area .topbar-right li.login-register i {
+    margin-right: 0;
+    margin-left: 5px;
+    transform: scale(-1, 1);
+}
+.full-width-header .rs-header .topbar-area .topbar-right .btn-part i {
+    margin-right: 0;
+    margin-left: 5px;
+    transform: scale(-1, 1);
+}
+.full-width-header .rs-header .topbar-area .topbar-right li.login-search i {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.main-menu {
+    margin-left: 0;
+    margin-right: 40px;
+}
+.full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a {
+    padding-right: 0;
+    padding-left: 20px;
+}
+.full-width-header .rs-header .menu-area .main-menu .rs-menu ul.sub-menu li.children-mega-menu .child-mega-menu .child-single-megamenu {
+    float: right;
+}
+.full-width-header .rs-header .menu-area .main-menu .rs-menu ul.sub-menu.right-menu {
+    left: 0;
+    right: unset;
+}
+.full-width-header .rs-header .menu-area .main-menu .rs-menu ul.mega-menu .mega-menu-container .single-megamenu {
+    float: right;
+}
+.full-width-header .rs-header .menu-area .nav-expander {
+    right: auto;
+    left: 15px;
+}
+.full-width-header.header-style2 .rs-header .menu-area .categories-btn .cat-btn i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.full-width-header .rs-header .right_menu_togle {
+    left: auto;
+    right: -500px;
+}
+.nav-expanded nav {
+    left: auto !important;
+    right: 0 !important;
+}
+.wl_userLogged .dropdown-menu a {
+    text-align: right;
+}
+.notifyCount {
+    float: left;
+}
+.wl_userLogged div {
+    margin-left: 0;
+    margin-right: 12px;
+}
+.rs-about .histort-part {
+    right: auto;
+    left: 0;
+}
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: 0;
+    padding-right: .5rem;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    padding-left: .5rem;
+    padding-right: 0;
+    content: "\f104";
+    font-size: 12px;
+    font-family: 'PhpDebugbarFontAwesome';
+}
+.rs-footer .footer-top .site-map li {
+    padding-left: 0;
+    padding-right: 15px;
+}
+.rs-footer .footer-top .site-map li:before {
+    right: 0;
+    left: auto;
+}
+.rs-footer .footer-top .address-widget li .desc {
+    padding-left: 0;
+    padding-right: 35px;
+}
+
+/*****************************
+Login Page
+*****************************/
+.rememberUser {
+    text-align: right;
+}
+.rs-login .noticed .main-part .method-account .rememberUser input {
+    margin-left: 0;
+    margin-right: 3px;
+}
+.rememberUser a {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.rs-newsletter.style1 .newsletter-wrap .newsletter-form input {
+    padding: 17px 190px 17px 30px;
+}
+.axil-blog .content {
+    right: auto;
+    left: 0;
+}
+.axil-blog .content .content-wrap::before {
+    left: auto;
+    right: -20px;
+}
+.axil-blog .content .content-wrap::after {
+    left: auto;
+    right: 0;
+}
+.axil-blog.active .content .content-wrap::after {
+    -webkit-transform: perspective(300px) rotateY(5deg);
+    transform: perspective(300px) rotateY(5deg);
+}
+.axil-blog .content .inner h5.title {
+    text-align: right;
+}
+.axil-blog .thumbnail {
+    text-align: right;
+}
+.services-sidebar .services-category ul li a i {
+    float: left;
+}
+#scrollUp {
+    right: auto;
+    left: 20px;
+}
+.rs-inner-blog .widget-area .recent-posts-widget .show-featured .post-desc a {
+    margin-right: 20px;
+}
+.rs-inner-blog .widget-area .widget-title:before {
+    left: auto;
+    right: 0;
+}
+.view-pdf{
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+/* New Login */
+
+.new-login form .custom-control-label::before,
+.new-login form .custom-control-label::after{
+    right: -5px;
+}
+.new-login form .custom-control-label{
+    padding-right: 20px;
+}
+.new-login form select{
+    background-position: calc(0% + 18px) 17px, calc(0% + 22px) 17px, 100% 0;
+}
+.new-login form .form-control{
+    position: relative;
+}
+.iti__country-list{
+    left: 0;
+}
